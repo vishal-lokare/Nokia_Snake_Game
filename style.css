@@ -1,0 +1,39 @@
+body
+{
+    background-color: white;
+}
+.grid
+{
+    width: 220px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.grid div
+{
+        width: 10px;
+        height: 10px;
+}
+.snake
+{
+    background-color: darkgreen;
+}
+
+.apple 
+{
+    background-color: darkgreen;
+}
+
+#container {
+    position: absolute;    
+}
+#example {
+   position: relative;
+   top: 130px;
+   left: 0px; 
+}
+

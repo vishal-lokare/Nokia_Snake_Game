@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Nokia 3310
+        </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" ref="style.css">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+</head>
+    
+    <body onload="ins()">
+        <center>
+            <br>
+            <!-- <input 
+                type="button"
+                ondblclick="bootup.play()" 
+                value="Turn on the Nokia 3310"    
+                style="background-color: blueviolet; color: white; white-space: normal; word-wrap: break-word;"
+            > -->
+            <button ondblclick="bootup.play()"><img src="https://cdn2.iconfinder.com/data/icons/mobile-apps-settings-ii-flat/2048/466_-_Power_button-512.png" height="50" width="50"></button>
+            <br><br>
+            Double Click the Power Button to turn on the Nokia 3310
+            <br><br><br><br>
+            
+            <!-- <img src="nokia.jpg" height="85%" width="40%"> -->
+
+            <!--
+                <div id="bootup_video">
+                <video width="160" height="120" id="bootup"  >
+                    <source src="bootup.mp4" type="video/mp4">
+                </video>
+                <div>
+                -->
+
+             
+
+                <div id="phone" style="background-image: url('nokia.jpg'); 
+                        background-repeat:no-repeat; 
+                        width:250px; height:340px;
+                        padding-right:50px; padding-top:90px;">
+
+                    <video height="70px" width="100px" id="bootup" onended="game()">
+                        <source src="bootup.mp4" type="video/mp4" />
+                    </video>
+                </div> 
+
+
+        </center>
+        
+    </body>
+</html>
